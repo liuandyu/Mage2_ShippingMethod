@@ -1,0 +1,16 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+    	<carriers>
+    		<myship>
+    			<model>Jeff\MyShip\Model\Carrier\MyShip</model>
+    			<active>1</active>
+    			<name>Myship Shipping</name>
+    			<title>Myship Shipping</title>
+    			<express_enabled>1</express_enabled>
+    			<express_title>Express Delivery</express_title>
+    			<express_price>4</express_price>
+    			<specificerrmsg>This shipping method is currently unvailable. If you wuold like to ship using this shipping method, please contact us.</specificerrmsg>
+    		</myship>
+    	</carriers>
+    </default>
+</config>
